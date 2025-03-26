@@ -1,133 +1,88 @@
 const skills = [
   {
-    title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
+    title: 'MOOSE Framework',
     competency: 5,
-    category: ['Web Development', 'Javascript'],
+    category: ['Numerical Modeling', 'Tools', 'Subsurface Engineering'],
   },
   {
-    title: 'React',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
+    title: 'Python',
+    competency: 5,
+    category: ['Languages', 'Data Analysis', 'Subsurface Engineering', 'ML Engineering'],
   },
   {
-    title: 'Next.JS',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
+    title: 'C++',
     competency: 4,
-    category: ['Web Development', 'Tools'],
+    category: ['Languages', 'Numerical Modeling'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
+    title: 'FEM',
+    competency: 5,
+    category: ['Numerical Modeling', 'Subsurface Engineering'],
   },
   {
-    title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
+    title: 'HPC',
     competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Tools', 'Numerical Modeling'],
   },
   {
-    title: 'Redis',
+    title: 'Rock Mechanics',
+    competency: 5,
+    category: ['Subsurface Engineering', 'Geo-engineering'],
+  },
+  {
+    title: 'Constitutive Modeling',
+    competency: 5,
+    category: ['Numerical Modeling', 'Subsurface Engineering'],
+  },
+  {
+    title: 'THM-coupled Modeling',
+    competency: 5,
+    category: ['Numerical Modeling', 'Subsurface Engineering'],
+  },
+  {
+    title: 'LaTeX',
+    competency: 4,
+    category: ['Tools', 'Documentation'],
+  },
+  {
+    title: 'Reservoir Data Analysis',
+    competency: 4,
+    category: ['Data Analysis', 'Subsurface Engineering'],
+  },
+  {
+    title: 'Parameter Optimization',
+    competency: 4,
+    category: ['Data Analysis', 'Numerical Modeling'],
+  },
+  {
+    title: 'Inelastic Analysis',
+    competency: 5,
+    category: ['Numerical Modeling', 'Subsurface Engineering'],
+  },
+  {
+    title: 'Geo-storage Systems',
+    competency: 5,
+    category: ['Subsurface Engineering', 'Energy Storage'],
+  },
+  {
+    title: 'Algorithm Optimization',
     competency: 3,
-    category: ['Web Development', 'Databases'],
+    category: ['Numerical Modeling', 'Programming'],
   },
   {
-    title: 'Data Mining',
-    competency: 3,
-    category: ['ML Engineering'],
+    title: 'Coupled Physics Modeling',
+    competency: 5,
+    category: ['Numerical Modeling', 'Subsurface Engineering'],
   },
   {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
+    title: 'Subsurface Instability Analysis',
+    competency: 4,
+    category: ['Numerical Modeling', 'Subsurface Engineering'],
   },
   {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'AWS',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Docker',
-    competency: 3,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'AWS Lambda',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['ML Engineering', 'Python'],
-  },
-  {
-    title: 'PyTorch',
-    competency: 3,
-    category: ['ML Engineering', 'Python'],
+    title: 'Creep-Fatigue Modeling',
+    competency: 5,
+    category: ['Numerical Modeling', 'Subsurface Engineering'],
   },
   {
     title: 'Jupyter',
@@ -135,63 +90,13 @@ const skills = [
     category: ['Data Science', 'Python'],
   },
   {
-    title: 'Typescript',
-    competency: 3,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Python',
-    competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Ruby',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Ruby on Rails',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'C++',
-    competency: 1,
-    category: ['Languages'],
-  },
-  {
-    title: 'Julia',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
+    title: 'Numpy',
+    competency: 4,
+    category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
     title: 'Pandas',
-    competency: 5,
+    competency: 4,
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
@@ -200,29 +105,34 @@ const skills = [
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
-    title: 'Scikit-Learn',
-    competency: 4,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Mypy',
+    title: 'Git',
     competency: 3,
-    category: ['Python'],
+    category: ['Tools'],
   },
   {
-    title: 'Pylint',
+    title: 'MATLAB',
     competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Languages', 'Numerical Modeling'],
+  },
+  {
+    title: 'German',
+    competency: 4,
+    category: ['Languages'],
+  },
+  {
+    title: 'English',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Chinese',
+    competency: 5,
+    category: ['Languages'],
+  },
+  {
+    title: 'Japanese',
+    competency: 1,
+    category: ['Languages'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -246,7 +156,7 @@ const categories = [...new Set(skills.flatMap(({ category }) => category))]
   .sort()
   .map((category, index) => ({
     name: category,
-    color: colors[index],
+    color: colors[index % colors.length],
   }));
 
 export { categories, skills };

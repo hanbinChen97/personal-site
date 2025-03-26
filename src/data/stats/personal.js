@@ -1,39 +1,33 @@
-import React, { useState, useEffect } from 'react';
-
-const Age = () => {
-  const [age, setAge] = useState();
-
-  const tick = () => {
-    const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1990-02-05T09:24:00');
-    setAge(((Date.now() - birthTime) / divisor).toFixed(11));
-  };
-
-  useEffect(() => {
-    const timer = setInterval(() => tick(), 25);
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
-  return <>{age}</>;
-};
-
 const data = [
   {
-    key: 'age',
-    label: 'Current age',
-    value: <Age />,
+    label: 'Years as a developer',
+    value: '5+',
+    link: 'https://github.com/deyan-tian',
   },
   {
-    key: 'countries',
+    label: 'Published papers',
+    value: '3',
+    link: 'https://scholar.google.com/citations?user=deyan-tian',
+  },
+  {
+    label: 'Conference presentations',
+    value: '2',
+    link: 'https://meetingorganizer.copernicus.org/EGU24/EGU24-11028.html',
+  },
+  {
+    label: 'Degrees',
+    value: '3',
+    link: '/resume',
+  },
+  {
+    label: 'Languages',
+    value: '4',
+    link: '/resume',
+  },
+  {
     label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
-  },
-  {
-    key: 'location',
-    label: 'Current city',
-    value: 'New York, NY',
+    value: '10+',
+    link: '/about',
   },
 ];
 
